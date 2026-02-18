@@ -21,9 +21,10 @@ const user = await userModel.findOne({
 console.log(user)
 
      }catch(err){
-        return res.status(401).json({ 
+      return res.status(401).json({
 
-        })
+      })
+      
 
 
      }
